@@ -1,0 +1,10 @@
+<h1>Top 10 games sold in japan </h1>
+
+
+<% @data1.each do |i| %>
+
+    <tr>
+        <td><%= i.name %></td>
+        <td><%= i.jp_sales %></td>
+    </tr><br>
+<% end %>

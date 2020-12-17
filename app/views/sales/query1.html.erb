@@ -1,0 +1,10 @@
+<h1>Top Games in 2006 genre is sports  </h1>
+
+
+<% @data1.each do |i| %>
+
+    <tr>
+        <td><%= i.name %></td>
+        <td><%= i.global_sales %></td>
+    </tr><br>
+<% end %>

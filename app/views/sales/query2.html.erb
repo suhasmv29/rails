@@ -1,0 +1,10 @@
+<h1>Top games sold by Sony Computer Entertainment</h1>
+
+
+<% @data1.each do |i| %>
+
+    <tr>
+        <td><%= i.name %></td>
+        <td><%= i.global %></td>
+    </tr><br>
+<% end %>
